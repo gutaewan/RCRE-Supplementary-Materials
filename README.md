@@ -2,7 +2,7 @@
 This repository provides the supplementary materials for the IST Short Communications submission.
 The materials are intended to support reuse and reproducibility of the proposed framework in industrial documentation workflows.
 
-# How to use (practical workflow)
+# How to use 
 ## Step 1 — Define the target readers and workflow
 Identify the reader roles that must consume the requirements (e.g., designers, supplier developers, service engineers) and the actual artifacts they can access in routine work.
 
@@ -12,21 +12,15 @@ Use the RP checklist to review whether the requirement set includes the minimum 
 - SHOULD/MAY items improve clarity and usefulness but do not necessarily gate satisfaction.
 
 ### RP checklist
-- RP consists of **11 evaluation items** with SHALL/SHOULD/MAY criteria.
+- RP consists of 11 evaluation items with SHALL/SHOULD/MAY criteria.
 - The full RP checklist and ECU-level decision rule are provided in: `RCRE_Checklist_v01.pdf`.
 
 ### Assessment scope
-- ECU-level fulfillment was assessed via **full coverage review** across all ECUs in the study.
+- ECU-level fulfillment was assessed via full coverage review across all ECUs in the study.
 
 ### Improvement rounds
 - Round 1: Apply the RP checklist to identify missing/underspecified items and rewrite representative requirements with explicit meaning + local mappings.
 - Round 2: Re-audit with the same checklist to address remaining gaps and reduce interpretation steps.
-
-## Step 3 — Rewrite using the templates
-If an RP item is missing or unclear, rewrite the requirement using the minimal templates:
-- state operational meaning in reader-accessible language
-- provide identifier mappings locally (instead of “search the DBC/document”)
-- place next-action hooks near the requirement
 
 # ECU-level RP satisfaction
 The paper reports ECU-level RP satisfaction, assessed via full coverage review:
