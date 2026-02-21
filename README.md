@@ -11,13 +11,24 @@ Use the RP checklist to review whether the requirement set includes the minimum 
 - SHALL items must be satisfied to count as RP-satisfied.  
 - SHOULD/MAY items improve clarity and usefulness but do not necessarily gate satisfaction.
 
+### RP checklist
+- RP consists of **11 evaluation items** with SHALL/SHOULD/MAY criteria.
+- The full RP checklist and ECU-level decision rule are provided in: `RCRE_Checklist_v01.pdf`.
+
+### Assessment scope
+- ECU-level fulfillment was assessed via **full coverage review** across all ECUs in the study.
+
+### Improvement rounds
+- Round 1: Apply the RP checklist to identify missing/underspecified items and rewrite representative requirements with explicit meaning + local mappings.
+- Round 2: Re-audit with the same checklist to address remaining gaps and reduce interpretation steps.
+
 ## Step 3 — Rewrite using the templates
 If an RP item is missing or unclear, rewrite the requirement using the minimal templates:
 - state operational meaning in reader-accessible language
 - provide identifier mappings locally (instead of “search the DBC/document”)
 - place next-action hooks near the requirement
 
-# ECU-level RP satisfaction (as used in the paper)
+# ECU-level RP satisfaction
 The paper reports ECU-level RP satisfaction, assessed via full coverage review:
 - An ECU is counted as RP-satisfied if its diagnostic requirement set satisfies all RP items at the level required by the SHALL criteria.
 - Item-level satisfaction may be supported by an explicitly provided local mapping/link that is practical to use in routine work.
